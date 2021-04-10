@@ -25,7 +25,8 @@ public class SwitchWeek {
             case 7:
                 name = "Sunday";
                 break;
-                default: return "Error";
+            default:
+                return "Error";
         }
         return name;
     }
