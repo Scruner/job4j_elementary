@@ -1,7 +1,8 @@
 package ru.job4j.converter;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
 
 class ConverterTest {
 
