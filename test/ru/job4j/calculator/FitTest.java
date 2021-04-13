@@ -1,9 +1,9 @@
 package ru.job4j.calculator;
 
 import junit.framework.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class FitTest {
+public class FitTest {
 
     @Test
     void whenMan180THen92() {
