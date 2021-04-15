@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 class SqAreaTest {
+
     @Test
     public void whenP6K2Square2() {
         int expected = 2;

@@ -6,6 +6,7 @@ import org.junit.Test;
 import static org.hamcrest.Matchers.is;
 
 public class CheckTest {
+
     @Test
     public void whenDataMonoByTrueThenTrue() {
         boolean[] data = new boolean[]{true, true, true};

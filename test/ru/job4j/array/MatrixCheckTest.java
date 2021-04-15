@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MatrixCheckTest {
+
     @Test
     public void whenHasMonoHorizontal() {
         char[][] input = {
