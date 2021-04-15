@@ -9,7 +9,6 @@ public class SquareTest {
         int bound = 3;
         int[] expected = new int[]{0, 1, 4};
         int[] result = Square.calculate(bound);
-
         Assert.assertArrayEquals(expected, result);
     }
 
@@ -18,7 +17,6 @@ public class SquareTest {
         int bound = 5;
         int[] expected = new int[]{0, 1, 4, 9, 16};
         int[] result = Square.calculate(bound);
-
         Assert.assertArrayEquals(expected, result);
     }
 }

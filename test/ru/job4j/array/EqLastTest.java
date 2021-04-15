@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class EqLastTest {
-
     @Test
     public void whenEq() {
         int[] left = {1, 2, 3};

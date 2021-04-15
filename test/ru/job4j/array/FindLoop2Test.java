@@ -4,14 +4,12 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class FindLoop2Test {
-
     @Test
     public void whenArrayHasLength5Then0() {
         int[] data = new int[]{5, 10, 3};
         int el = 5;
         int expected = 0;
         int result = FindLoop2.indexOf(data, el);
-
         Assert.assertEquals(expected, result);
     }
 
@@ -23,7 +21,6 @@ public class FindLoop2Test {
         int finish = 4;
         int expected = 3;
         int result = FindLoop2.indexOf(data, el, start, finish);
-
         Assert.assertEquals(expected, result);
     }
 
@@ -35,7 +32,6 @@ public class FindLoop2Test {
         int finish = 4;
         int expected = 2;
         int result = FindLoop2.indexOf(data, el, start, finish);
-
         Assert.assertEquals(expected, result);
     }
 
@@ -47,9 +43,6 @@ public class FindLoop2Test {
         int finish = 5;
         int expected = -1;
         int result = FindLoop2.indexOf(data, el, start, finish);
-
         Assert.assertEquals(expected, result);
-
-
     }
 }

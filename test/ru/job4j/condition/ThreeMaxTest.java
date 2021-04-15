@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ThreeMaxTest {
-
     @Test
     public void firstMax() {
         int first = 10;

@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MatrixTest {
-
     @Test
     public void when2on2() {
         int size = 2;
@@ -41,7 +40,6 @@ public class MatrixTest {
                 {5, 10, 15, 20, 25, 30, 35},
                 {6, 12, 18, 24, 30, 36, 42},
                 {7, 14, 21, 28, 35, 42, 49}
-
         };
         int[][] result = Matrix.multiple(size);
         Assert.assertArrayEquals(expected, result);
