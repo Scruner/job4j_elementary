@@ -2,33 +2,39 @@ package ru.job4j.calculator;
 
 public class Calculator {
 
-  public static void plus(int first, int second) {
-    int result = first + second;
-    System.out.println(result);
+  private static int x = 5;
+
+  public static int sum(int y) {
+    return x + y;
   }
 
-  public static void minus(int first, int second) {
-    int result = first - second;
-    System.out.println(result);
+  public static int minus(int c) {
+    return c - x;
+  }
+
+  public int multiply(int a) {
+    return x * a;
+  }
+
+  public int divide(int d) {
+    return d / x;
+  }
+
+  public int sumAllOperation(int e) {
+    return sum(e) + minus(e) + multiply(e) + divide(e);
   }
 
   public static void main(String[] args) {
-    plus(1, 2);
-    plus(10, 11);
-    minus(7, 3);
-    minus(2, 6);
-    int one = 1;
-    int two = 2;
-    int six = 6;
-    int four = 4;
-    int five = 5;
-    int sixDivTwo = six / two;
-    int fiveMinusTwo = five - two;
-    int forTimeTwo = four * two;
-    int onePlusTwo = one + two;
-    System.out.println(onePlusTwo);
-    System.out.println(sixDivTwo);
-    System.out.println(fiveMinusTwo);
-    System.out.println(forTimeTwo);
+    Calculator calculator = new Calculator();
+    int rslMultiply = calculator.multiply(5);
+    int result = sum(10);
+    int rslMinus = minus(14);
+    int rslDivide = calculator.divide(25);
+    int rslSumAllOperation = calculator.sumAllOperation(15);
+    System.out.println(result);
+    System.out.println(rslMultiply);
+    System.out.println(rslMinus);
+    System.out.println(rslDivide);
+    System.out.println(rslSumAllOperation);
   }
 }
