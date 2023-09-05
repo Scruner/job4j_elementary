@@ -15,8 +15,8 @@ public class Mortgage {
 
 
 
-//while ((amount + (amount * (percent / 100))) > 0) {
-//        amount + (amount * (percent / 100)) = (((amount + (amount * (percent / 100))) - salary)
-//        + (((amount + (amount * (percent / 100))) - salary) * (percent / 100)));
-//        year++;
-//        }
+/**while ((amount + (amount * (percent / 100))) > 0) {
+        amount + (amount * (percent / 100)) = (((amount + (amount * (percent / 100))) - salary)
+        + (((amount + (amount * (percent / 100))) - salary) * (percent / 100)));
+        year++;
+        }*/
