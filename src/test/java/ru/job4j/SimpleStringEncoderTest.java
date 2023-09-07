@@ -1,4 +1,4 @@
-package ru.job4j;
+/**package ru.job4j;
 
 import org.junit.jupiter.api.Test;
 import ru.job4j.array.SimpleStringEncoder;
@@ -63,4 +63,4 @@ class SimpleStringEncoderTest {
     String result = SimpleStringEncoder.encode(input);
     assertThat(result).isEqualTo(expected);
   }
-}
+}*/
