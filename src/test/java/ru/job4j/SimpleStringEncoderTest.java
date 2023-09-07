@@ -63,4 +63,5 @@ class SimpleStringEncoderTest {
     String result = SimpleStringEncoder.encode(input);
     assertThat(result).isEqualTo(expected);
   }
-}*/
+}
+ */
